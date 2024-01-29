@@ -1,0 +1,68 @@
+{
+    //window
+    "window.commandCenter": false,
+    "window.titleBarStyle": "native",
+
+    //symbols
+    "symbols.hidesExplorerArrows": false,
+    
+    //editor
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [90,130],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.suggestSelection": "first",
+    
+    //workbench
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+
+    //explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    //breadcrumbs
+    "breadcrumbs.enabled": false,
+
+    //apc
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+    
+    //terminal
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.showExitAlert": false,
+
+    //errorLens
+    "errorLens.fontWeight": "100",
+    "errorLens.fontStyleItalic": true,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "circle",
+    "errorLens.messageEnabled": false,
+}
